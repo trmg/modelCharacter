@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

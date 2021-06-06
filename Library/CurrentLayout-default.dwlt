@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 39
+  controlID: 90
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 103
+  controlID: 82
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -372,9 +372,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c8e2ffff
-      m_LastClickedID: -7480
-      m_ExpandedIDs: cee1ffffc0e2ffffc8e2ffffeae2ffff5ae3ffff70e3ffff1eeaffff66eaffff92eaffffe2eaffff16ebffff42ebffff54fbffff38520000525700005a570000
+      m_SelectedIDs: e4e0ffff
+      m_LastClickedID: -7964
+      m_ExpandedIDs: 78dfffff72e0ffff94e0fffffce0ffff64f1ffff7af1ffff54fbffffbe530000c65300000a5400001854000076590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -476,22 +476,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Aligned Games/First Person Character System/System/Scripts/Managers
+    - Assets/Aligned Games/First Person Character System/System/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Aligned Games/First Person Character System/System/Scripts/Managers
+  - Assets/Aligned Games/First Person Character System/System/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\Douka\\OneDrive\\Documentos\\Anima\xE7\xF5es\\Teste\\TesteFP"
+  m_LastProjectPath: C:\Users\Douka\OneDrive\Documentos\Maze\modelCharacter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 30}
-    m_SelectedIDs: f4510000
-    m_LastClickedID: 20980
-    m_ExpandedIDs: 0000000002500000045000008a5100008e5100009051000094510000aa510000f051000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7e510000
+    m_LastClickedID: 20862
+    m_ExpandedIDs: 000000003a5000003c5000002a5100009451000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.6575891, y: -0.5566472, z: -14.57029}
+    m_Target: {x: -0.14948392, y: 1.6882696, z: -10.049562}
     speed: 2
-    m_Value: {x: 0.6575891, y: -0.5566472, z: -14.57029}
+    m_Value: {x: -0.14948392, y: 1.6882696, z: -10.049562}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -661,13 +661,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0077216574, y: 0.9919897, z: -0.1003425, w: 0.07633589}
+    m_Target: {x: -0.0861557, y: 0.737828, z: -0.095943816, w: -0.6625567}
     speed: 2
-    m_Value: {x: 0.0077216616, y: 0.9919902, z: -0.10034255, w: 0.07633593}
+    m_Value: {x: -0.08615571, y: 0.73782814, z: -0.09594383, w: -0.6625568}
   m_Size:
-    m_Target: 3.130388
+    m_Target: 1.362658
     speed: 2
-    m_Value: 3.130388
+    m_Value: 1.362658
   m_Ortho:
     m_Target: 0
     speed: 2
