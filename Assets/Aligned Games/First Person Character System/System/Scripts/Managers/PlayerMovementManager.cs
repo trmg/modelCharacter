@@ -150,7 +150,7 @@ public class PlayerMovementManager : MonoBehaviour
                 {
 
                     MoveDirection.y = JumpSpeed;
-                    Stamina -= JumpStamina;
+                    //Stamina -= JumpStamina;
 
                 }
 

@@ -1,0 +1,527 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 18363.1556; Version 1909; 64bit' Language: 'pt' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tiago/Documents/GitHub/modelCharacter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64078
+Successfully changed project path to: C:/Users/tiago/Documents/GitHub/modelCharacter
+C:/Users/tiago/Documents/GitHub/modelCharacter
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 104.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tiago/Documents/GitHub/modelCharacter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5730
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002876 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.115 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004437 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 6.209100 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.129000 ms MarkObjects: 5.485700 ms  DeleteObjects: 0.268300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Aligned Games/First Person Character System
+  artifactKey: Guid(9f997484c7fe46e47927c0b5ff67892c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System using Guid(9f997484c7fe46e47927c0b5ff67892c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7058ed2209fbadacf930994a48ce4ab7') in 0.011760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Aligned Games/First Person Character System/System
+  artifactKey: Guid(79ecee94e1126c34aac125b2c2454bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System using Guid(79ecee94e1126c34aac125b2c2454bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d1edbb202f669b1108776966e0424d') in 0.013359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art
+  artifactKey: Guid(bad5dcfa288cc6c4981a3696f2ac6cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art using Guid(bad5dcfa288cc6c4981a3696f2ac6cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f7456cdd32a507db1e0680a3d0baa') in 0.014030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174067 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models
+  artifactKey: Guid(600bf8cc7eca1074590391c9711cc952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models using Guid(600bf8cc7eca1074590391c9711cc952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae6a3f8833e3f5a28aacc88b9f74599') in 0.015145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.985815 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid
+  artifactKey: Guid(2b742674d8f16924b849b2ff08ed6d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid using Guid(2b742674d8f16924b849b2ff08ed6d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe50f382c598bbee775e86339dc1261') in 0.022804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.259150 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid/Male1
+  artifactKey: Guid(a8ae951679a2fc14c87ef32faa50d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid/Male1 using Guid(a8ae951679a2fc14c87ef32faa50d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c78b0aecf4fed1e7e2900b472b767ca') in 0.015620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052074 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid/Male1/male_1.fbx
+  artifactKey: Guid(4ce0a5e197c5ff04aa24d21ea8eb1602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid/Male1/male_1.fbx using Guid(4ce0a5e197c5ff04aa24d21ea8eb1602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa958fa74cf2594e98c999e5755b6629') in 0.650944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.115481 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/HeartPickup1
+  artifactKey: Guid(c380d68b59c579b4dbb3a817920a3aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/HeartPickup1 using Guid(c380d68b59c579b4dbb3a817920a3aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6b08f7c75c18443158994a1922110a') in 0.019310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049194 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/HeartPickup1/heart_pickup_1.fbx
+  artifactKey: Guid(a837c1c121a4169408a6a0dcc37f3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/HeartPickup1/heart_pickup_1.fbx using Guid(a837c1c121a4169408a6a0dcc37f3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bc19bbb0cd2cf5f7430d90e95b227a') in 0.034766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.071206 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/JumpPickup1/jump_pickup_1.fbx
+  artifactKey: Guid(45e5597a90253044c83e0fa9b6190465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/JumpPickup1/jump_pickup_1.fbx using Guid(45e5597a90253044c83e0fa9b6190465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c217f36812f00906e6e5c02cd5c59cc') in 0.032172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.851501 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/SpeedPickup1/speed_pickup_1.fbx
+  artifactKey: Guid(8c69277dc03f30843a8cdf3ce8410c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Pickups/SpeedPickup1/speed_pickup_1.fbx using Guid(8c69277dc03f30843a8cdf3ce8410c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df696d8daba473e0cd7e466f5a37c18f') in 0.031291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.165369 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes
+  artifactKey: Guid(2019ed8af7bc2144199eef4a6f709386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes using Guid(2019ed8af7bc2144199eef4a6f709386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf94f9687e29346e72439a1afc38674') in 0.014493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.296376 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration.unity
+  artifactKey: Guid(e65313d97a35f4249a1f1f8a56a5b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration.unity using Guid(e65313d97a35f4249a1f1f8a56a5b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd659cbd475de48c40cf868b0ddd9cbe') in 0.017326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.367580 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Textures/grid_diffuse.png
+  artifactKey: Guid(646c3fbbbbd567343bad9b1d62f02f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Textures/grid_diffuse.png using Guid(646c3fbbbbd567343bad9b1d62f02f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6284ea1389919f41d1a86a66ca403628') in 0.087748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Textures/plain_diffuse.png
+  artifactKey: Guid(df14a2c91a2741a4d877e1d78697e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Textures/plain_diffuse.png using Guid(df14a2c91a2741a4d877e1d78697e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752b41fd33cfc81246c13920c265b99a') in 0.023238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.490337 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Backgrounds
+  artifactKey: Guid(34e358f2901afaf4591299668743ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Backgrounds using Guid(34e358f2901afaf4591299668743ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fcd76c22e6f6c1992472902bc6b87b') in 0.017734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069481 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Backgrounds/background_1.png
+  artifactKey: Guid(6860a99784c147b4fb02d7e346a6c931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Backgrounds/background_1.png using Guid(6860a99784c147b4fb02d7e346a6c931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1c0e3435be0e769bb76c81d33451ba') in 0.042674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.466341 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Fonts/GothicA1-SemiBold.ttf
+  artifactKey: Guid(b077e7ae83894144884153654241d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Fonts/GothicA1-SemiBold.ttf using Guid(b077e7ae83894144884153654241d8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd9ad397d6345cf7eac6514dcaf5965') in 0.069522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.714717 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Icons/health_icon.png
+  artifactKey: Guid(70aeacf9715d91843bb191fb2142beff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Icons/health_icon.png using Guid(70aeacf9715d91843bb191fb2142beff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119d150814d9f46a6fd0016505a7e99c') in 0.019247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Icons/run_boost_icon.png
+  artifactKey: Guid(e3f8342c46d77a84281ed01fa1a4cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Icons/run_boost_icon.png using Guid(e3f8342c46d77a84281ed01fa1a4cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd71e5eba8a2d64e7d08e61a0d6ebb7') in 0.033198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Icons/jump_boost_icon.png
+  artifactKey: Guid(cf805c62bb1e6f94abd6cb3fac91ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Icons/jump_boost_icon.png using Guid(cf805c62bb1e6f94abd6cb3fac91ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359e3b37afc98c88b98f03962e893886') in 0.036194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Interface/Icons/stamina_icon.png
+  artifactKey: Guid(e8d046f96a3b1f84c9ab5096cc90af2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Interface/Icons/stamina_icon.png using Guid(e8d046f96a3b1f84c9ab5096cc90af2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b3b5b3161b8f230610ce74141fda05') in 0.037177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.748193 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Profiles/Post-processingProfile1.asset
+  artifactKey: Guid(fa126a07e4127994ca0d2a6907320ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Profiles/Post-processingProfile1.asset using Guid(fa126a07e4127994ca0d2a6907320ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de692267f2d442c277b4afc6e0ac61ea') in 0.016132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.132948 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Profiles/Lighting-Settings1.lighting
+  artifactKey: Guid(c239460a044391649a2a2f09511317f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Profiles/Lighting-Settings1.lighting using Guid(c239460a044391649a2a2f09511317f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e001ca47e685347dbe7f7fec1da43521') in 0.016431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.637629 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Resources/HeartPickup.prefab
+  artifactKey: Guid(33c5357035ef3ce4186d6a67f49ecc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Resources/HeartPickup.prefab using Guid(33c5357035ef3ce4186d6a67f49ecc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ff0b720096d6371330b66dfd9eaa25') in 0.326196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Resources/Player.prefab
+  artifactKey: Guid(c70a21f7fde969848836377edc6ab65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Resources/Player.prefab using Guid(c70a21f7fde969848836377edc6ab65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2cecabcfa74b3c8586c3fa7439b36c') in 0.051147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Resources/SpeedPickup.prefab
+  artifactKey: Guid(1b449c165635aa8438459efa4f10e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Resources/SpeedPickup.prefab using Guid(1b449c165635aa8438459efa4f10e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25907665066b0d739e865ed8a8fa53c') in 0.029350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Resources/JumpPickup.prefab
+  artifactKey: Guid(a6cf4862f2b18d345914751598b5d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Resources/JumpPickup.prefab using Guid(a6cf4862f2b18d345914751598b5d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d2438531993b79dd5bf0204a938ef5') in 0.034525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Resources/PlayerCanvas.prefab
+  artifactKey: Guid(414f123cf98506c46a32cc884a8bed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Resources/PlayerCanvas.prefab using Guid(414f123cf98506c46a32cc884a8bed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2426dc8e1b2922d477f7add6a860e42') in 0.039840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Resources/Player(Ragdoll).prefab
+  artifactKey: Guid(fc66e88a0ba0b074d89b2fe7f88e3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Resources/Player(Ragdoll).prefab using Guid(fc66e88a0ba0b074d89b2fe7f88e3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7c83cd88b5e4d9d786a9c25d9e8dcc') in 0.036343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.432031 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_1.mat
+  artifactKey: Guid(aa9256948bdbd8642bec509aa7203ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_1.mat using Guid(aa9256948bdbd8642bec509aa7203ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71f6e2f6be12ca7e76e906b000c087f') in 0.032530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_7.mat
+  artifactKey: Guid(a2daa7984db518c4ab6c53433ff7b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_7.mat using Guid(a2daa7984db518c4ab6c53433ff7b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec660f478a10274b03dcc6e6ce96496') in 0.019987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_8.mat
+  artifactKey: Guid(40e30a565ac82434d9fbdb9b83460b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_8.mat using Guid(40e30a565ac82434d9fbdb9b83460b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec206d4df1a4f67d03e01f2c883678f7') in 0.033688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_6.mat
+  artifactKey: Guid(c42d7de5bbd933f4facc4534fb1f8b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_6.mat using Guid(c42d7de5bbd933f4facc4534fb1f8b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688ae5b6aa14a68365c6abbe59e12f50') in 0.030816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_9.mat
+  artifactKey: Guid(2243474e731ad6442b71a0d771edf2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_9.mat using Guid(2243474e731ad6442b71a0d771edf2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce559e9e1cd0d262bd90e5b7097630') in 0.030128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_5.mat
+  artifactKey: Guid(4fc3b37313086df49b40b07e8fab4bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_5.mat using Guid(4fc3b37313086df49b40b07e8fab4bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52a4918e1b162d3506e660cebe111cc') in 0.035974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_2.mat
+  artifactKey: Guid(9f84fd0cc26c1a64aae0e6d5a88ab0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_2.mat using Guid(9f84fd0cc26c1a64aae0e6d5a88ab0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16437419a718adbe3ab09bd122d60254') in 0.026660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_2.mat
+  artifactKey: Guid(4b0032b339329684ba035dbeafb2f278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_2.mat using Guid(4b0032b339329684ba035dbeafb2f278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc31514d8d69e5f48ad9d9fda7bf9ae') in 0.025237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_4.mat
+  artifactKey: Guid(869d710ed6415004f9f3280a53e63500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_4.mat using Guid(869d710ed6415004f9f3280a53e63500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790fa6b1f0b963865909ca2833a88239') in 0.030211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_3.mat
+  artifactKey: Guid(288c0fee753769f46875da30bb921e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/grid_3.mat using Guid(288c0fee753769f46875da30bb921e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ddcbe3dd0657706d23353168b46982') in 0.029212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_1.mat
+  artifactKey: Guid(f4fd760e81f35cb41adafe921a7ae7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_1.mat using Guid(f4fd760e81f35cb41adafe921a7ae7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4035a082162c8a3e5ff38d6a72a6ee') in 0.030151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454421 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_3.mat
+  artifactKey: Guid(83d864882d0b1ec45aece39968905ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_3.mat using Guid(83d864882d0b1ec45aece39968905ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1550a5fbeb1c0751d3cfa7d780bd0471') in 0.021392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_4.mat
+  artifactKey: Guid(862bb7d5d5f42844bafefaaeddd7bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Materials/plain_4.mat using Guid(862bb7d5d5f42844bafefaaeddd7bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcf951cb289a9c5aa3f182d0fb3152b') in 0.027870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 310.552297 seconds.
+  path: Assets/Aligned Games/First Person Character System/Documentation/First Person Character System Documentation.pdf
+  artifactKey: Guid(12ae1511e58f4414eb32460913840505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/Documentation/First Person Character System Documentation.pdf using Guid(12ae1511e58f4414eb32460913840505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43500aa79bf063449c9c948f10362b65') in 0.026109 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007330 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.6 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3301.
+Total: 7.298100 ms (FindLiveObjects: 0.407100 ms CreateObjectMapping: 0.449700 ms MarkObjects: 6.368400 ms  DeleteObjects: 0.071400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.271774 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scripts
+  artifactKey: Guid(97c71a9313f05c74b95ea978082bd1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scripts using Guid(97c71a9313f05c74b95ea978082bd1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d7357741b081a3de4d1bf785c29544') in 0.018068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.181595 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scripts/Behaviours
+  artifactKey: Guid(2ba2dc537f8611341b40264f1c8fd517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scripts/Behaviours using Guid(2ba2dc537f8611341b40264f1c8fd517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537fc53a9186c83e95498cff357c55d1') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.081586 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scripts/Behaviours/RotationBehaviour.cs
+  artifactKey: Guid(1c5b1a557c1b1c6468e4eeae7dba21c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scripts/Behaviours/RotationBehaviour.cs using Guid(1c5b1a557c1b1c6468e4eeae7dba21c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b6c9cee82fa9402fbae9b34b3c5ede') in 0.039988 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017122 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3304.
+Total: 3.056900 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.148300 ms MarkObjects: 2.498500 ms  DeleteObjects: 0.084800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005036 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3307.
+Total: 3.489200 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.175800 ms MarkObjects: 2.932600 ms  DeleteObjects: 0.079500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 663.793603 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid/Male1/Male1AnimatorController.controller
+  artifactKey: Guid(1d432ec7eb885364f85619451fae0cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Art/Models/Humanoid/Male1/Male1AnimatorController.controller using Guid(1d432ec7eb885364f85619451fae0cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e735f1ec549aa88552733bbbff2ba0') in 0.047962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.277876 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerAnimationManager.cs
+  artifactKey: Guid(64ff9aa7bdfd3b7448502dc4fcfc7113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerAnimationManager.cs using Guid(64ff9aa7bdfd3b7448502dc4fcfc7113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4a05fb83022467801b2488c8e8d0a0') in 0.015359 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004419 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.4 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3310.
+Total: 3.033900 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.180600 ms MarkObjects: 2.384600 ms  DeleteObjects: 0.117800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 353.457544 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/LightingData.asset
+  artifactKey: Guid(88190fb53e410344d817ed62c9c715e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/LightingData.asset using Guid(88190fb53e410344d817ed62c9c715e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2d507c690207646dd527c17c1cd09a') in 0.045655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/ReflectionProbe-0.exr
+  artifactKey: Guid(680f43470ba83794e9710de08ded0264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/ReflectionProbe-0.exr using Guid(680f43470ba83794e9710de08ded0264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd446fd74d4b1ebd9c964bed3ff6fd2a') in 0.115047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/OcclusionCullingData.asset
+  artifactKey: Guid(2518029e7f5ac6b4196f7a3821e789ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/OcclusionCullingData.asset using Guid(2518029e7f5ac6b4196f7a3821e789ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4529612a59002ba20a4b12b3af1ffde0') in 0.011613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/ReflectionProbe-1.exr
+  artifactKey: Guid(94c0fb32ffd7d6b41a0949bbc9b099e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/ReflectionProbe-1.exr using Guid(94c0fb32ffd7d6b41a0949bbc9b099e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a3c2a712569209fe2509c8963ef5d') in 0.050870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/NavMesh.asset
+  artifactKey: Guid(0bd41b40ee44c7b429f73115ab61aed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration/NavMesh.asset using Guid(0bd41b40ee44c7b429f73115ab61aed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315c8a3285bc069aa616190a3b74db83') in 0.021453 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013247 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2671 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3346.
+Total: 3.666700 ms (FindLiveObjects: 0.470900 ms CreateObjectMapping: 0.191000 ms MarkObjects: 2.914500 ms  DeleteObjects: 0.088700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006295 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\modelCharacter\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3349.
+Total: 11.028000 ms (FindLiveObjects: 0.813200 ms CreateObjectMapping: 0.785700 ms MarkObjects: 9.309400 ms  DeleteObjects: 0.117600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
