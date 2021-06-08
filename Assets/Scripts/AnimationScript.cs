@@ -25,6 +25,8 @@ public class AnimationScript : MonoBehaviour {
     public float scaleRate;
     private float scaleTimer;
 
+
+
 	// Use this for initialization
 	void Start () {
 	
@@ -32,8 +34,6 @@ public class AnimationScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-       
         
         if(isAnimated)
         {

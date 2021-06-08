@@ -216,6 +216,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &27082271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012946874890, guid: 586acbe765df7c34385298970076297e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1269782983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &27082272
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27082271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.8
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &32418935 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4080348138308596, guid: c70a21f7fde969848836377edc6ab65d,
@@ -9932,6 +9951,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114652033075615396, guid: c70a21f7fde969848836377edc6ab65d,
+        type: 3}
+      propertyPath: luz1
+      value: 
+      objectReference: {fileID: 1816558204}
+    - target: {fileID: 114652033075615396, guid: c70a21f7fde969848836377edc6ab65d,
+        type: 3}
+      propertyPath: luz2
+      value: 
+      objectReference: {fileID: 15101659}
+    - target: {fileID: 114652033075615396, guid: c70a21f7fde969848836377edc6ab65d,
+        type: 3}
+      propertyPath: spiral
+      value: 
+      objectReference: {fileID: 27082271}
     - target: {fileID: 114881072960967710, guid: c70a21f7fde969848836377edc6ab65d,
         type: 3}
       propertyPath: FallDistance

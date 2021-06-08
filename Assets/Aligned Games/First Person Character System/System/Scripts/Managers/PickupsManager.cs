@@ -11,6 +11,10 @@ public class PickupsManager : MonoBehaviour
 
     public Keyboard Keycodes;
 
+    public GameObject spiral;
+    public GameObject luz1;
+    public GameObject luz2;
+
     [System.Serializable]
     public class Keyboard
 
@@ -114,4 +118,10 @@ public class PickupsManager : MonoBehaviour
 
     }
 
+    void OnTriggerEnter(Collider spiral)
+    {
+        Destroy(luz1.gameObject);
+         Destroy(luz2.gameObject);
+        Destroy(spiral.gameObject);
+    }
 }
