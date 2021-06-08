@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Aligned Games/First Person Character System/System/Scenes/Demonstration.unity
-    guid: e65313d97a35f4249a1f1f8a56a5b65e
+    path: Assets/Scenes/Menu.unity
+    guid: 7967951b74e38fa46a3065eecec4623b
+  - enabled: 1
+    path: Assets/Scenes/EasyGame.unity
+    guid: e20ac871c0454cf48a81da16b57b0a1e
+  - enabled: 1
+    path: Assets/Scenes/HardGame.unity
+    guid: caf00b275fadb144ea9158ca23210dc3
+  - enabled: 1
+    path: Assets/Scenes/MediumGame.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
