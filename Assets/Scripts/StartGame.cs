@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,7 +14,7 @@ public class StartGame : MonoBehaviour
     Dictionary<int, string> cenas = new Dictionary<int, string>(){{0, "EasyGame"}, {1, "MediumGame"}, {2, "HardGame"}};
     
     public void StarGame()
-    {
+    {   
         SceneManager.LoadScene(cenas[dificuldade]);    
     }
 

@@ -328,6 +328,7 @@
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerMovementManager.cs"
 "Assets/Scripts/AnimationScript.cs"
 "Assets/Scripts/Drop.cs"
+"Assets/Scripts/Instructions.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/StartGame.cs"
 -langversion:8.0
