@@ -35,6 +35,11 @@ public class PlayerCameraManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
         }
 
+        if(GetComponent<PlayerHealthManager>().CurrentHealth <= 0) {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+
     }
 
     void RotateCamera()

@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Behaviours/RotationBehaviour.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/ColliderManager.cs"
+"Assets/Aligned Games/First Person Character System/System/Scripts/Managers/DeadMenu.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PickupsManager.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerAnimationManager.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerCameraManager.cs"

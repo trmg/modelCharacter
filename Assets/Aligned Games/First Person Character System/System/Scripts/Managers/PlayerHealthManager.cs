@@ -17,6 +17,8 @@ public class PlayerHealthManager : MonoBehaviour
 
     public float HealthPickupHealFactor;
 
+    public GameObject deadMenuUI;
+
     public void Start()
 
     {
@@ -42,7 +44,7 @@ public class PlayerHealthManager : MonoBehaviour
         if (CurrentHealth <= MinimumHealth)
 
         {
-
+            deadMenuUI.SetActive(true);
             CurrentHealth = MinimumHealth;
             Instantiate(RagdollPlayer, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
