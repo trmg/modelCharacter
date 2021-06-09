@@ -28,6 +28,13 @@ public class PlayerCameraManager : MonoBehaviour
 
         RotateCamera();
 
+        if(!PauseMenu.GameIsPaused) {
+            RotateCamera();
+        } else {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+
     }
 
     void RotateCamera()

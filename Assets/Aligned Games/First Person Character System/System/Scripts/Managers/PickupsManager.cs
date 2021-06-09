@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Diagnostics;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PickupsManager : MonoBehaviour
 
@@ -14,6 +17,11 @@ public class PickupsManager : MonoBehaviour
     public GameObject spiral;
     public GameObject luz1;
     public GameObject luz2;
+
+    public GameObject finish;
+    public string sceneMenu;
+
+    private bool orbCaught = false;
 
     [System.Serializable]
     public class Keyboard
@@ -121,7 +129,19 @@ public class PickupsManager : MonoBehaviour
     void OnTriggerEnter(Collider spiral)
     {
         Destroy(luz1.gameObject);
-         Destroy(luz2.gameObject);
+        Destroy(luz2.gameObject);
         Destroy(spiral.gameObject);
+        orbCaught = true;
+       
     }
+
+    void OnTriggerExit(Collision finish)
+    {
+        if(orbCaught){
+             
+            SceneManager.LoadScene(sceneMenu); 
+        }
+    }
+
+
 }
