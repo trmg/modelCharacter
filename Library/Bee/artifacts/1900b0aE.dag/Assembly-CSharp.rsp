@@ -320,7 +320,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Behaviours/RotationBehaviour.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/ColliderManager.cs"
-"Assets/Aligned Games/First Person Character System/System/Scripts/Managers/DeadMenu.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PickupsManager.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerAnimationManager.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerCameraManager.cs"
@@ -328,10 +327,12 @@
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerHealthManager.cs"
 "Assets/Aligned Games/First Person Character System/System/Scripts/Managers/PlayerMovementManager.cs"
 "Assets/Scripts/AnimationScript.cs"
+"Assets/Scripts/DeadMenu.cs"
 "Assets/Scripts/Drop.cs"
 "Assets/Scripts/Instructions.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/StartGame.cs"
+"Assets/Scripts/WinMenu.cs"
 -langversion:8.0
 
 /deterministic

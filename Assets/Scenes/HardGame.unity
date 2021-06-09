@@ -2124,7 +2124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 175368229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc8b830590848554d9897813a5614762, type: 3}
+  m_Script: {fileID: 11500000, guid: f2f11633f0fbedf46a946f7dac3fd206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: Menu
@@ -4706,7 +4706,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 448321093}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc8b830590848554d9897813a5614762, type: 3}
+  m_Script: {fileID: 11500000, guid: f2f11633f0fbedf46a946f7dac3fd206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: Menu
@@ -4755,7 +4755,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 448321095}
-        m_TargetAssemblyTypeName: DeadMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: WinMenu, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -19703,7 +19703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1361601870
 RectTransform:
   m_ObjectHideFlags: 0
