@@ -7,8 +7,6 @@ public class DeadMenu : MonoBehaviour
 {
     public string sceneMenu;
     
-
-
     public void MainMenu()
     {
         SceneManager.LoadScene(sceneMenu); 
