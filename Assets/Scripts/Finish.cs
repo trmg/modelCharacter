@@ -15,10 +15,14 @@ public class Finish : MonoBehaviour
         GameObject hitObject = collider.gameObject;
 
         if(hitObject.tag == "Player" && !PickupsManager.orbCaught) {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             newTryMenuUI.SetActive(true);
             
         }
         if(hitObject.tag == "Player" && PickupsManager.orbCaught) {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             winMenuUI.SetActive(true);
         }
     }

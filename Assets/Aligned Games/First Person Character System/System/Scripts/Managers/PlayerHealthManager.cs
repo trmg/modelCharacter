@@ -49,6 +49,7 @@ public class PlayerHealthManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             CurrentHealth = MinimumHealth;
             Instantiate(RagdollPlayer, this.transform.position, this.transform.rotation);
+            PickupsManager.setOrbToFalse();
             Destroy(this.gameObject);
 
         }

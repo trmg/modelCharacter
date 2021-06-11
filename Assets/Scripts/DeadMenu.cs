@@ -10,6 +10,7 @@ public class DeadMenu : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(sceneMenu); 
+        PickupsManager.setOrbToFalse();
     }
 
     public void Restart()

@@ -16,6 +16,8 @@ public class StartGame : MonoBehaviour
     public void StarGame()
     {   
         SceneManager.LoadScene(cenas[dificuldade]);    
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Credits()
