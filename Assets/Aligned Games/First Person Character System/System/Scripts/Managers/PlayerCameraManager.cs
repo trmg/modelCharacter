@@ -25,14 +25,8 @@ public class PlayerCameraManager : MonoBehaviour
     void Update()
 
     {
-
-        RotateCamera();
-
-        if(!PauseMenu.GameIsPaused && GetComponent<PlayerHealthManager>().CurrentHealth > 0) {
+        if(!PauseMenu.GameIsPaused) {
             RotateCamera();
-        } else {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
         }
 
     }

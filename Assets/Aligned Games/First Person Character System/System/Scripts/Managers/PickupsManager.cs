@@ -34,7 +34,7 @@ public class PickupsManager : MonoBehaviour
 
     {
 
-        InfoText = GameObject.Find("InfoText").GetComponent<Text>();
+
 
     }
 

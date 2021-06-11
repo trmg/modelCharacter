@@ -45,6 +45,8 @@ public class PlayerHealthManager : MonoBehaviour
 
         {
             deadMenuUI.SetActive(true);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             CurrentHealth = MinimumHealth;
             Instantiate(RagdollPlayer, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
